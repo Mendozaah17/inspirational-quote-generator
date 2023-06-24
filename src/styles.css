@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    height: 1vh;
+}
+
+body {
+    background-color: darkslategray;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 120px;
+}
+
+button {
+    display: flex;
+    padding: 20px;
+    border-radius: 6px;
+    border: darkslategray;
+    box-shadow: 3px 3px 2px 0px rgb(124, 194, 153);
+    color: white;
+    background-color: cadetblue;
+    font-size: 16px;
+    align-items: center;
+}
